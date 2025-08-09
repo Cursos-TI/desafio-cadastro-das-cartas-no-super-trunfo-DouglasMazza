@@ -6,8 +6,10 @@ int main() {
     float area1, area2;
     float pib1, pib2;
     int pontos1, pontos2;
-
-    printf("Cadastro da Carta 1:\n");
+    
+    // Iniciando a programação
+    
+    printf("Cadastro da Carta 1:\n"); // Obtendo informação da primeira carta
     printf("Digite o código (ex: A01): ");
     scanf("%s", codigo1);
     printf("Digite a população: ");
@@ -19,7 +21,7 @@ int main() {
     printf("Digite o número de pontos turísticos: ");
     scanf("%d", &pontos1);
 
-    printf("\nCadastro da Carta 2:\n");
+    printf("\nCadastro da Carta 2:\n"); // Obtendo informação da segunda carta
     printf("Digite o código (ex: B02): ");
     scanf("%s", codigo2);
     printf("Digite a população: ");
@@ -31,14 +33,16 @@ int main() {
     printf("Digite o número de pontos turísticos: ");
     scanf("%d", &pontos2);
 
-    printf("\n--- Dados da Carta 1 ---\n");
+    // Resultado
+
+    printf("\n--- Carta 1 ---\n");
     printf("Código: %s\n", codigo1);
     printf("População: %d\n", populacao1);
     printf("Área: %.2f km²\n", area1);
     printf("PIB: %.2f bilhões de reais\n", pib1);
     printf("Pontos turísticos: %d\n", pontos1);
 
-    printf("\n--- Dados da Carta 2 ---\n");
+    printf("\n--- Carta 2 ---\n");
     printf("Código: %s\n", codigo2);
     printf("População: %d\n", populacao2);
     printf("Área: %.2f km²\n", area2);
