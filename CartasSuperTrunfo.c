@@ -56,7 +56,7 @@ int main() {
     tipo1= (pib1 * 1000000000) / populacao1; 
     
     densidade2= populacao2 / area2;
-    tipo2= (pib2 * 1000000000), area2;
+    tipo2= (pib2 * 1000000000) / populacao2;
 
     // Resultado
 
